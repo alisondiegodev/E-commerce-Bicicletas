@@ -86,15 +86,5 @@
         width: 100%;
     }
 
-    .header-menu {
-        margin-top: 20px;
-    }
-}
-
-@media (max-width: 600px) {
-
-    .header-menu-pai {
-        margin-top: 20px;
-    }
 
 }

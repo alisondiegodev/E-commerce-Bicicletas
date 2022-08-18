@@ -67,6 +67,21 @@
     .header-menu {
         gap: 12px;
         font-size: 14px;
+        align-items: center;
 
+    }
+
+}
+
+@media screen and (max-width: 380px) {
+    .header-menu {
+        gap: 12px;
+        font-size: 14px;
+        align-items: center;
+
+    }
+
+    .header-menu-pai {
+        margin-top: 1.5rem;
     }
 }
