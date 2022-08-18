@@ -15,8 +15,9 @@
 
 .bicicletas-lista ul {
     display: flex;
-    padding: 2rem;
+    padding: 1.25rem 1.25rem 1.25rem 1.25rem;
     gap: 2.5rem;
+    overflow-x: scroll;
 
 }
 
@@ -32,6 +33,12 @@
 .bicicletas-lista img {
     margin-bottom: 1rem;
     max-width: 100%;
+    transition: 0.5s;
+}
+
+.bicicletas-lista img:hover {
+    margin-bottom: 1rem;
+    max-width: 103%;
 }
 
 .bicicletas-lista h3 {
@@ -49,7 +56,12 @@
     width: 12px;
     margin-right: 4px;
     border-radius: 3px;
+    transition: width 0.3s;
 
+}
+
+.bicicletas-lista a:hover h3::before {
+    width: 2rem;
 }
 
 .bicicletas-lista li span {
@@ -68,7 +80,7 @@
     }
 
     .bicicletas-lista ul {
-        flex-wrap: wrap;
+
         gap: 1.25rem;
     }
 
