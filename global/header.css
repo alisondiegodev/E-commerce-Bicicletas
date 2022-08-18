@@ -1,5 +1,5 @@
 .header-bg {
-    background-color: #000;
+    background-color: var(--cor-12);
 
 
 }
@@ -24,7 +24,6 @@
 
 .header-menu a {
     display: inline-block;
-    color: #fff;
     padding: 1rem 0rem;
     gap: 20px;
     position: relative;
