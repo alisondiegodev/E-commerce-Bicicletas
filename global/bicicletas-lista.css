@@ -17,7 +17,7 @@
     display: flex;
     padding: 2rem;
     gap: 2.5rem;
-    flex-wrap: wrap;
+
 }
 
 .bicicletas-lista li {
@@ -68,7 +68,7 @@
     }
 
     .bicicletas-lista ul {
-
+        flex-wrap: wrap;
         gap: 1.25rem;
     }
 
