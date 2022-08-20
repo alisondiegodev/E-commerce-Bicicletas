@@ -6,4 +6,5 @@
 @import "./global/bicicletas-lista.css";
 @import "./global/header.css";
 @import "./home/introducao.css";
-@import "./utilidades/componentes.css"
+@import "./utilidades/componentes.css";
+@import "./home/tecnologia.css";
