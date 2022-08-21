@@ -44,8 +44,8 @@
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .parceiros li:nth-child(n + 3) {
-        border-top: 2px solid var (--cor2);
+    .parceiros li:nth-child(n +3) {
+        border-top: 2px solid var(--cor-2);
     }
 
     .parceiros li:nth-child(odd) {
