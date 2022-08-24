@@ -51,4 +51,11 @@
     .parceiros li:nth-child(odd) {
         border-left: none;
     }
+
+
+    .parceiros li {
+        display: flex;
+        padding: 1.2rem;
+        border-left: 2px solid var(--cor-2);
+    }
 }
