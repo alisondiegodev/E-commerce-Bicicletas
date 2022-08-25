@@ -66,6 +66,7 @@ footer h3 {
 
     .footer {
         grid-template-columns: 1fr 1fr;
-        margin-left: 3.5rem;
+        margin-left: 1rem;
+
     }
 }

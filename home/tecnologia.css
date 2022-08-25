@@ -68,6 +68,8 @@
     .tecnologia-conteudo {
         padding-top: 60px;
         padding-bottom: 60px;
+        margin-top: 60px;
+        margin-bottom: 60px;
     }
 
     .tecnologia-imagem {
@@ -85,9 +87,3 @@
         grid-template-columns: 1fr;
     }
 }
-
-/* @media (max-width: 300px) {
-    .ponto {
-        max-width: max-content;
-    }
-} */
