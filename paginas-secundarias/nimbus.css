@@ -1,0 +1,110 @@
+.nimbus-bg {
+    background-color: var(--cor-11);
+}
+
+.bicicletas {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.bicicletas-imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.bicicletas-imagens img {
+    flex: 1;
+    min-width: 200px;
+}
+
+.bicicletas-imagens img:first-child {
+    min-width: 100%;
+}
+
+.bicicletas-conteudo>p {
+    margin-bottom: 32px;
+}
+
+.bicicletas-comprar {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: start;
+    gap: 8px 12px;
+
+
+}
+
+.bicicletas-comprar a {
+    grid-row: 1/ span 2;
+}
+
+.bicicletas-comprar span {
+    display: flex;
+    align-items: center;
+    background-color: var(--cor-12);
+    gap: 8px;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.content h3 {
+    letter-spacing: 0.015em;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+
+}
+
+
+.bicicletas-informacoes {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bicicletas-informacoes li {
+    display: grid;
+    gap: 8px;
+}
+
+
+
+.bicicletas-informacoes,
+.bicicletas-ficha {
+    padding: 32px;
+    background-color: var(--cor-12);
+    border-radius: 5px;
+}
+
+
+.bicicletas-ficha {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+.ficha-lista-2 {
+    display: grid;
+    justify-items: end;
+}
+
+.botao-2 {
+    display: block;
+    padding: 16px 32px;
+    background: linear-gradient(#FFBF00, #F2A50C);
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+    text-transform: uppercase;
+    color: #332200;
+    font-size: 18px;
+    line-height: 2.33rem;
+    font-family: "Poppins";
+    font-weight: 600;
+    max-width: fit-content;
+    max-height: fit-content;
+
+}
