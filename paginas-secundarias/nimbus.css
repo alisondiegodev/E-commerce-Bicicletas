@@ -86,15 +86,12 @@
 }
 
 
-.bicicletas-ficha {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+.bicicletas-ficha li {
+    display: flex;
+    justify-content: space-between;
+    padding: 4px 0;
+    border-bottom: 1px solid var(--cor-10);
 
-}
-
-.ficha-lista-2 {
-    display: grid;
-    justify-items: end;
 }
 
 .botao-2 {
@@ -128,16 +125,34 @@
 }
 
 
+@media (max-width: 600px) {
+    .bicicletas-ficha li {
+        display: grid;
+        grid-template-columns: auto 5fr 1fr;
+    }
+
+    .bicicletas-ficha li::before {
+        content: "";
+        width: 6px;
+        height: 6px;
+        background-color: var(--cor-8);
+        border-radius: 1rem;
+        margin-right: 4px;
+    }
+}
+
+
 
 
 @media (max-width: 500px) {
     .bicicletas-informacoes {
-        display: grid;
         grid-template-columns: 1fr;
+
 
     }
 
     .bicicletas-comprar {
         grid-template-columns: 1fr
     }
+
 }
