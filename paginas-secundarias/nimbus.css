@@ -112,6 +112,8 @@
 }
 
 
+@media (max-width: 950px) {}
+
 @media (max-width: 800px) {
     .bicicletas {
         grid-template-columns: 1fr;
@@ -119,9 +121,15 @@
         padding-bottom: 40px;
     }
 
-    .bicicletas-imagens {
-        grid-row: 2
+    .img-2,
+    .img-3 {
+        display: none;
+
     }
+
+    /* .bicicletas-imagens {
+        grid-row: 2
+    } */
 }
 
 
