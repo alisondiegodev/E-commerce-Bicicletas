@@ -23,12 +23,14 @@
 
 .bicicletas-imagens img {
     flex: 1;
-    min-width: 200px;
+    min-width: 100px;
 }
 
 .bicicletas-imagens img:first-child {
     min-width: 100%;
 }
+
+
 
 .bicicletas-conteudo>p {
     margin-bottom: 32px;
